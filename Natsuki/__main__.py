@@ -65,7 +65,7 @@ from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 👋 Hemlo, My Name is 𝚂𝚑𝚒𝚖𝚒𝚣𝚞 𝙺𝚒𝚢𝚘𝚔𝚘.
 I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!
-#https://telegra.ph/file/1277852bc55f4af75d1d4.jpg
+"https://telegra.ph/file/1277852bc55f4af75d1d4.jpg"
 """
 buttons = [
     [
