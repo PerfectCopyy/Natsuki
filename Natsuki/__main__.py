@@ -63,7 +63,7 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hey There!` '''(https://telegra.ph/file/1277852bc55f4af75d1d4.jpg)''' `My name is` *Shimizu Kiyoko*
+👋 Hey There!` "https://telegra.ph/file/1277852bc55f4af75d1d4.jpg" `My name is` *Shimizu Kiyoko*
 `I am an Anime Themed group management bot.
  Made by Its_Vivooo for Your Telegram Group , I specialize in managing anime and similar themed groups.
  """
