@@ -63,39 +63,39 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hey There, My Name is 𝗡𝗮𝘁𝘀𝘂𝗸𝗶. 
+👋 Hey There, My Name is Shimizu Kiyoko(https://telegra.ph/file/1277852bc55f4af75d1d4.jpg). 
 I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"
+            text="🌠Anime Group", url="https://t.me/TheSincity1"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/NatsukiSupport_Official"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="Source 🗒", url="Github.com/Sadew451"
-        ),
-        InlineKeyboardButton(
-            text="Command Help ❓", callback_data="help_back"
+            text="🚑Support Group", url="https://t.me/ShimizuHelps"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add To Me Your Group ➕",
-            url="t.me/TheNatsukiBot?startgroup=true",
+            text="📢Shimizu News", url="https://t.me/ShimizuNews"
+        ),
+        InlineKeyboardButton(
+            text="🔔Command Help", callback_data="help_back"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="▶️ Add To Me Your Group ◀️",
+            url="t.me/Shimizu_Robot?startgroup=true",
         ),
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg"
+NATSUKI_IMG = "https://telegra.ph/file/1277852bc55f4af75d1d4.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/1277852bc55f4af75d1d4.jpg)
 
 /start: Starts me! You've probably already used this.
 /help: Click this, I'll let you know about myself!
@@ -111,7 +111,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [SADEW JAYASEKARA](t.me/Darkridersslk)"""
+Support them  [NoNeed](t.me/Its_Vivooo)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -371,8 +371,8 @@ def Natsuki_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Natsuki Updates.* "
-            f"\n\n Join [NatsukiUpdates](https://t.me/Natsuki_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by ItsVivooo.* "
+            f"\n\n Join [ShimizuHelps](https://t.me/ShimizuHelps) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -809,7 +809,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online ❤")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Hiya i'm alive 😉")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
