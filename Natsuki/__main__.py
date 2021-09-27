@@ -63,7 +63,7 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hey there, My Name is (https://telegra.ph/file/1277852bc55f4af75d1d4.jpg) Shimizu Kiyoko.
+[👋] Hey there, My Name is Shimizu Kiyoko(https://telegra.ph/file/1277852bc55f4af75d1d4.jpg).
 I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!
 """
 buttons = [
